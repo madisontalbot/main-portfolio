@@ -1,0 +1,88 @@
+@charset "utf-8";
+/*
+Created By: Madison Talbot - self portfolio website
+Date: November 9, 2023 - to be used throughout the full portolio site with the excveption of inline or special interactions created in Figma.
+Additoinal stipulations will apply depending on the categories of design - web to use a light background, fashion to use a dark background (dark mode).
+Elements incorporated on each page will vary inversly and directly as needed.
+*/
+
+*{ /*Universal Selector - applies to every element */
+  margin: 0; padding: 0; font-size: 100%; font-weight: normal;}
+
+
+a {text-decoration:none;}
+h1 {color:black; font-family:'Poppins', sans-serif; font-weight:700; font-size:128px; line-height:120px; letter-spacing:-4%; text-transform:uppercase;}
+/*h2 neees to be created as a css code in figma, then ported over - not possbile to do stroke in css*/
+h2 {color:gainsboro; font-family:'Poppins', sans-serif; font-weight:700;  stroke:3px; font-size:128px; line-height:120px; letter-spacing:-4%;
+-webkit-text-fill-color: white;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;}
+h3 {font-size:109px; font-family:'Poppins', sans-serif; font-weight:700; line-height: 99px; letter-spacing:-4%;}
+h4 {font-size:80px; font-family:'Poppins', sans-serif; font-weight:700;  line-height:80px; letter-spacing:-2%;}
+h5 {font-size:36px; font-family:'Poppins', sans-serif; font-weight:700;  line-height:44.8px; letter-spacing:-2%}
+/*any button creted with h6 needs to have font-variant:small-caps;*/
+h6 {font-size:24px; font-family:'Poppins', sans-serif; font-weight:600;  line-height:28px; letter-spacing:-2%; text-decoration:none;}
+p {font-size: 18px; font-family:'Poppins', sans-serif; font-weight:400; line height: 25.2px; letter-spacing:-2%}
+
+nav {margin-top: 24px
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 0;}
+
+main {margin-top: 24px;
+margin-left: 24px;
+margin-right: 24px;
+margin-bottom: 0;}
+
+footer {color: white; background-color: black;}
+
+/* Component 1 */
+
+position: relative;
+width: 1508px;
+height: 300px;
+
+
+
+/* Latest Work */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 18%;
+
+/* h2 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 128px;
+line-height: 120px;
+/* or 94% */
+letter-spacing: -0.04em;
+
+color: #FFFFFF;
+
+border: 1px solid #737373;
+
+
+/* Latest Work */
+
+position: absolute;
+left: 5.7%;
+right: 26.13%;
+top: 10.67%;
+bottom: 0%;
+
+/* h4 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 60px;
+/* or 75% */
+letter-spacing: -0.04em;
+
+color: #000000;
+
+border: 1px solid #737373;
